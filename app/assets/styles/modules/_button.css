@@ -1,0 +1,16 @@
+.btn {
+	background-color: $colorBrand;
+	color: $colorWhite;
+	display: inline-block;
+	padding: $padding-100 $padding-300;
+	text-decoration: none;
+
+    &--orange {
+        background-color: $colorOrange;
+    }
+
+    &--large {
+        font-size: $font-size-300;
+        padding: $padding-200 $padding-600;
+    }
+}

@@ -1,0 +1,17 @@
+.hero {
+    background-size: cover;
+    background: url("/app/assets/images/hero--large.jpg") center no-repeat;
+    display: flex;
+    flex-flow: column wrap;
+    min-height: 45vh;
+    place-content: center;
+
+    h1, h2 {
+        font-weight: 300;
+    }
+
+    p {
+        margin-inline: auto;
+        max-width: 30rem;
+    }
+}

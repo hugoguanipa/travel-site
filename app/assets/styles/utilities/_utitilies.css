@@ -1,0 +1,30 @@
+
+/* Font Utilities */
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.fw-100 {
+    font-weight: 100;
+}
+
+.ts-200 {
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.text-color-brand {
+    color: $colorBrand;
+}
+
+.text-color-white {
+    color: $colorWhite;
+}
+

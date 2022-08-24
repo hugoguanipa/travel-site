@@ -1,0 +1,23 @@
+/* Colors */
+$colorBrand: #2f5572;
+$colorOrange: #d59541;
+$colorWhite: #fff;
+
+/* Spacing */
+$padding-50: 0.6rem;
+$padding-100: 0.8rem;
+$padding-200: 1rem;
+$padding-300: 1.2rem;
+$padding-400: 1.4rem;
+$padding-500: 1.6rem;
+$padding-600: 1.8rem;
+
+/* Font Sizes */
+$font-size-100: 0.7rem;
+$font-size-200: 1rem;
+$font-size-300: 1.25rem;
+$font-size-400: 1.875rem;
+$font-size-500: 2.9rem;
+$font-size-600: 3.2rem;
+$font-size-700: 4rem;
+$font-size-800: 4.8rem;
