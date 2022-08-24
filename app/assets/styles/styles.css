@@ -2,6 +2,7 @@
 @import '_reset';
 @import 'base/_global';
 @import 'base/_tokens';
+@import 'base/_mixins';
 
 /* Utilities*/
 @import 'utilities/_utitilies';

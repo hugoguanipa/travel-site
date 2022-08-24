@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "postcss-calc": "^8.2.4"
   },
   "name": "travel-site",
   "version": "1.0.0",
@@ -29,6 +30,7 @@
     "postcss": "^8.4.16",
     "postcss-import": "^14.1.0",
     "postcss-loader": "^7.0.1",
+    "postcss-mixins": "^9.0.3",
     "postcss-nested": "^5.0.6",
     "postcss-simple-vars": "^6.0.3",
     "style-loader": "^3.3.1",

@@ -1,9 +1,9 @@
 .heading-1 {
-    font-size: $font-size-800;
+    font-size: $fluid-font-size-h1;
 }
 
 .heading-2 {
-    font-size: $font-size-500;
+    font-size: $fluid-font-size-h2;
 }
 
 .p-large {
