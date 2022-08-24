@@ -1,13 +1,13 @@
 .heading-1 {
-    font-size: $fluid-font-size-h1;
+    font-size: $fluid-font-h1;
 }
 
 .heading-2 {
-    font-size: $fluid-font-size-h2;
+    font-size: $fluid-font-h2;
 }
 
 .p-large {
-    font-size: $font-size-400;
+    font-size: $fluid-font-pLarge;
 }
 
 .p-medium {

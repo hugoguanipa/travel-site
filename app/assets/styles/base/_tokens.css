@@ -22,11 +22,13 @@ $font-size-600: 3.2rem;
 $font-size-700: 4rem;
 $font-size-800: 4.8rem;
 
+$fluid-size-400: 1.875;
 $fluid-size-500: 2.9;
 $fluid-size-800: 4.8;
 
-$fluid-font-size-h2: clamp($font-size-300, $fluid-size-500 * 1.5vw,$font-size-500);
-$fluid-font-size-h1: clamp($font-size-400, $fluid-size-800 * 1.5vw,$font-size-800);
+$fluid-font-h1: clamp($font-size-400, $fluid-size-800 * 1.5vw,$font-size-800);
+$fluid-font-h2: clamp($font-size-300, $fluid-size-500 * 1.5vw,$font-size-500);
+$fluid-font-pLarge: clamp($font-size-200, $fluid-size-400 * 1.5vw,$font-size-400);
 
 :root {
     --flow-space: 0.8rem;
