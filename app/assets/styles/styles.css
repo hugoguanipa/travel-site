@@ -1,12 +1,11 @@
+/* Modern CSS Reset and Global Properties */
+@import '_reset';
+@import 'base/_global';
 
-body {
-	color: red;
-}
+/* Utilities*/
+@import 'modules/_large-hero';
 
-$mainblue: #2f5572;
 
-.large-hero {
-	h2 {
-		color: $mainblue;
-	}
-}
+
+
+ 
