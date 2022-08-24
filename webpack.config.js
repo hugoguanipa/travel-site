@@ -6,8 +6,17 @@ module.exports = {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'app')
     },
+    devServer: {
+        watchFiles: ('./app/**/*.html'),
+        static: {
+            directory: path.join(__dirname, 'app'),
+        },
+        compress: true,
+        hot: true,
+        port: 3000,
+        host: '0.0.0.0'
+    },
     mode: 'development',
-    watch: true,
     module: {
         rules: [
             {
