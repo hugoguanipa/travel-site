@@ -46,6 +46,25 @@
     margin-bottom: 1.5em;
 }
 
+.mb-700 {
+    margin-bottom: $fluid-padding-300;
+}
+
+
+
 .mc {
     margin-inline: auto;
 }
+
+/* Gap Utilities */
+
+.gap-200 {
+    gap:$padding-200;
+}
+.gap-600 {
+    gap:$padding-600;
+}
+.gap-700 {
+    gap:$padding-700;
+}
+

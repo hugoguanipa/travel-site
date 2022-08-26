@@ -4,9 +4,10 @@ $colorOrange: #d59541;
 $colorWhite: #fff;
 
 /* Fluid Sizes */
-$fluid-size-200: 1.275;
+$fluid-size-200: 1.25;
 $fluid-size-300: 1.875;
 $fluid-size-500: 2.9;
+$fluid-size-600: 3.6;
 $fluid-size-800: 4.8;
 
 /* Spacing */
@@ -16,10 +17,12 @@ $padding-200: 1rem;
 $padding-300: 1.2rem;
 $padding-400: 1.4rem;
 $padding-500: 1.6rem;
-$padding-600: 1.8rem;
-$padding-700: 2rem;
+$padding-600: 2rem;
+$padding-700: 3.6rem;
 $padding-800: 4.5rem;
 
+$fluid-padding-200: clamp($padding-200, $fluid-size-300 * 1.5vw,$padding-600);
+$fluid-padding-300: clamp($padding-100, $fluid-size-600 * 1.5vw,$padding-700);
 $fluid-padding-400: clamp($padding-300, $fluid-size-800 * 1.5vw,$padding-800);
 
 /* Borders */
@@ -40,6 +43,7 @@ $font-size-800: 4.8rem;
 $fluid-font-h1: clamp($font-size-500, $fluid-size-800 * 1.5vw,$font-size-800);
 $fluid-font-h2: clamp($font-size-400, $fluid-size-500 * 1.5vw,$font-size-500);
 $fluid-font-smallHeadline: clamp($font-size-200, $fluid-size-300 * 1.5vw,$font-size-300);
+$fluid-font-pMed: clamp($font-size-100, $fluid-size-200 * 1.5vw,$font-size-200);
 $fluid-font-pLarge: clamp($font-size-200, $fluid-size-300 * 1.5vw,$font-size-400);
 $fluid-font-link: clamp($font-size-100, $fluid-size-200 * 1.5vw,$font-size-200);
 

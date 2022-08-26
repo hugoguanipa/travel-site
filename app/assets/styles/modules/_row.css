@@ -1,0 +1,12 @@
+.row {
+    display:flex;
+    flex-wrap: wrap;
+
+    &__4 {
+        flex: 1 1 400px;
+    }
+
+    &__8 {
+        flex: 4 3 550px;
+    }
+}

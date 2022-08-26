@@ -1,0 +1,13 @@
+.special-content {
+    
+    p {
+        line-height: 1.65;
+        font-size: $fluid-font-pMed;
+        --flow-space: $fluid-padding-200;
+    }
+
+    p a {
+        font-weight: 600;
+    }
+
+}
