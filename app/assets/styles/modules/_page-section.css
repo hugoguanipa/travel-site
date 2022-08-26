@@ -1,0 +1,8 @@
+.page-section {
+    padding-block: $fluid-padding-400;
+
+    &--blue {
+        background-color: $colorBrand;
+        color:$colorWhite;
+    }
+}

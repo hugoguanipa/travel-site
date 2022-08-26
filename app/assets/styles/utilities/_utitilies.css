@@ -28,3 +28,24 @@
     color: $colorWhite;
 }
 
+.headline-small {
+    font-size: $fluid-font-smallHeadline;
+}
+
+
+/* Margin Utilities */
+.mb-100 {
+    margin-bottom: 0.5em;
+}
+
+.mb-200 {
+    margin-bottom: 1em;
+}
+
+.mb-300 {
+    margin-bottom: 1.5em;
+}
+
+.mc {
+    margin-inline: auto;
+}

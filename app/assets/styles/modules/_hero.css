@@ -5,6 +5,7 @@
     flex-flow: column wrap;
     min-height: 45vh;
     place-content: center;
+    border-bottom: $border-200 solid $colorBrand;
 
     h1, h2 {
         font-weight: 300;

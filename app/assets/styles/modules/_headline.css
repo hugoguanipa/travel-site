@@ -1,0 +1,14 @@
+.headline {
+    color: $colorBrand;
+    font-weight: 300;
+    font-size: $fluid-font-h2;
+
+    &--orange {
+        color: $colorOrange;
+    }
+
+    &--narrow {
+        max-width: 500px;
+        margin-inline: auto;
+    }
+}
