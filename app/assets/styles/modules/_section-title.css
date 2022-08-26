@@ -1,0 +1,10 @@
+.section-title {
+    font-size: $fluid-font-h2-lg;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+
+    strong {
+        font-weight: 600;
+    }
+}

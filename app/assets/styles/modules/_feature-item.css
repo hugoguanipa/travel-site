@@ -1,0 +1,30 @@
+.feature-item {
+    position: relative;
+	padding-left: 94px;
+
+    @mixin atMedium{
+        padding-left: 0px;
+    }
+
+
+    &__icon {
+        position: absolute;
+        left: 0;
+
+        @mixin atMedium {
+            position: unset;
+            margin-inline: auto;
+        }
+    }
+
+    &__title {
+        font-weight: 300;
+        font-size: $fluid-font-smallHeadline;
+        margin-bottom: $padding-100;
+
+        @mixin atSmall{
+            margin-top: $padding-100;
+            text-align: center;
+        }
+    }
+}

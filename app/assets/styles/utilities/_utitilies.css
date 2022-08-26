@@ -50,7 +50,9 @@
     margin-bottom: $fluid-padding-300;
 }
 
-
+.mr-100 {
+    margin-right: $padding-50;
+}
 
 .mc {
     margin-inline: auto;

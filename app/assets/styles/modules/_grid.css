@@ -1,0 +1,11 @@
+.grid {
+    --gap: $padding-800;
+
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(var(--max-column-width), 1fr));
+    gap: var(--gap);
+
+    @mixin atSmall {
+        --max-column-width: 1fr;
+    }
+}
