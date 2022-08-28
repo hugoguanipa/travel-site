@@ -7,10 +7,6 @@
     place-content: center;
     border-bottom: $border-200 solid $colorBrand;
 
-    h1, h2 {
-        font-weight: 300;
-    }
-
     p {
         margin-inline: auto;
         max-width: 30rem;

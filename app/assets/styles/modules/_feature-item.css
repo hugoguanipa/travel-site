@@ -18,7 +18,6 @@
     }
 
     &__title {
-        font-weight: 300;
         font-size: $fluid-font-smallHeadline;
         margin-bottom: $padding-100;
 
