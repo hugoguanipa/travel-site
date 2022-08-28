@@ -1,6 +1,6 @@
 .hero {
-    background-size: cover;
     background: url("/app/assets/images/hero--large.jpg") center no-repeat;
+    background-size: cover;
     display: flex;
     flex-flow: column wrap;
     min-height: 45vh;

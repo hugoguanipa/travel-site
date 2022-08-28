@@ -24,6 +24,10 @@
     color: $colorBrand;
 }
 
+.text-color-secundary {
+    color: $colorOrange;
+}
+
 .text-color-white {
     color: $colorWhite;
 }
@@ -44,6 +48,10 @@
 
 .mb-300 {
     margin-bottom: 1.5em;
+}
+
+.mb-400 {
+    margin-bottom: 2.5em;
 }
 
 .mb-700 {
@@ -68,5 +76,17 @@
 }
 .gap-700 {
     gap:$padding-700;
+}
+
+.gap-800 {
+    gap:$padding-800;
+}
+
+.cgap-300 {
+    column-gap: $padding-800;
+}
+
+.rgap-300 {
+    row-gap: 5.5rem;
 }
 

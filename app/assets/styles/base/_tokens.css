@@ -1,7 +1,9 @@
 /* Colors */
 $colorBrand: #2f5572;
+$colorBrand-200:  #e0e6ef;
 $colorOrange: #d59541;
 $colorWhite: #fff;
+$colorWhite-50: rgba(255, 255, 255, 0.75);
 
 /* Fluid Sizes */
 $fluid-size-200: 1.25;
@@ -20,6 +22,7 @@ $padding-500: 1.6rem;
 $padding-600: 2rem;
 $padding-700: 3.6rem;
 $padding-800: 4.5rem;
+$padding-850: 5.5rem;
 
 $fluid-padding-200: clamp($padding-200, $fluid-size-300 * 1.5vw,$padding-600);
 $fluid-padding-300: clamp($padding-100, $fluid-size-600 * 1.5vw,$padding-700);
@@ -30,9 +33,10 @@ $border-100: 2px;
 $border-200: 10px;
 
 /* Font Sizes */
-$font-size-50: 0.7rem;
+$font-size-50: 0.85rem;
 $font-size-100: 1rem;
 $font-size-200: 1.25rem;
+$font-size-250: 1.5rem;
 $font-size-300: 1.875rem;
 $font-size-400: 2.1rem;
 $font-size-500: 2.9rem;

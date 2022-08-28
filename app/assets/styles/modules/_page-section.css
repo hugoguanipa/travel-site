@@ -5,4 +5,13 @@
         background-color: $colorBrand;
         color:$colorWhite;
     }
+
+    &--testimonials {
+        background: url("/app/assets/images/testimonials-bg.jpg") top center no-repeat; 
+        background-size: cover;
+
+        @mixin atMedium {
+            background: $colorBrand-200;
+        }
+    }
 }
