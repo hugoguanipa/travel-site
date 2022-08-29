@@ -1,16 +1,17 @@
 /* Colors */
 $colorBrand: #2f5572;
+$colorBrand-50: rgba($colorBrand, 0.3);
 $colorBrand-200:  #e0e6ef;
 $colorOrange: #d59541;
 $colorWhite: #fff;
-$colorWhite-50: rgba(255, 255, 255, 0.75);
+$colorWhite-50: rgba($colorWhite, 0.75);
 
 /* Fluid Sizes */
 $fluid-size-200: 1.25;
 $fluid-size-300: 1.875;
 $fluid-size-500: 2.9;
 $fluid-size-600: 3.6;
-$fluid-size-800: 4.8;
+$fluid-size-800: 4.8; 
 
 /* Spacing */
 $padding-50: 0.6rem;

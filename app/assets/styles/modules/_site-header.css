@@ -1,0 +1,13 @@
+.site-header {
+    position: absolute;
+    background-color: $colorBrand-50;
+    width: 100%;
+    padding: $padding-100;
+
+    &__logo {
+        position: absolute;
+        top: 0;
+        background-color: $colorBrand;
+        padding: $padding-600;
+    }
+}

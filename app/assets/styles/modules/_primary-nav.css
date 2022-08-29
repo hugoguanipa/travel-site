@@ -1,0 +1,10 @@
+.primary-nav {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+
+    a {
+        color: $colorWhite;
+        text-decoration: none;
+    }
+}

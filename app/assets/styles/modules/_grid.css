@@ -8,4 +8,8 @@
     @mixin atSmall {
         --max-column-width: 1fr;
     }
+
+    &__header {
+        grid-template-columns: auto max-content;
+    }
 }

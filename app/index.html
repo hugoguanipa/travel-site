@@ -18,16 +18,20 @@
 		/>
 	</head>
 	<body>
-		<header>
-			<img src="assets/images/icons/clear-view-escapes.svg" />
-			<a class="btn" href="#">Get in Touch</a>
-			<nav>
-				<ul>
-					<li><a href="#our-beginning">Our Beginning</a></li>
-					<li><a href="#features">Features</a></li>
-					<li><a href="#testimonials">Testimonials</a></li>
-				</ul>
-			</nav>
+		<header class="site-header">
+			<div class="wrapper grid grid__header gap-600">
+				<div class="site-header__logo">
+					<img src="assets/images/icons/clear-view-escapes.svg" />
+				</div>
+				<nav class="mbc">
+					<ul class="primary-nav gap-200 mbc">
+						<li><a href="#our-beginning">Our Beginning</a></li>
+						<li><a href="#features">Features</a></li>
+						<li><a href="#testimonials">Testimonials</a></li>
+					</ul>
+				</nav>
+				<a class="btn" href="#">Get in Touch</a>
+			</div>
 		</header>
 
 		<section class="hero | text-center text-color-brand">
@@ -53,7 +57,7 @@
 					<strong>better for everyone.</strong>
 				</h3>
 				<img
-					class="mc mb-700"
+					class="mic mb-700"
 					sizes="970px, 100vw"
 					srcset="
 						assets/images/first-trip-low-res.jpg  565w,
@@ -74,7 +78,7 @@
 								media="(min-width: 1000px)"
 							/>
 							<img
-								class="mc"
+								class="mic"
 								srcset="
 									assets/images/our-start-landscape-i.jpg         800w,
 									assets/images/our-start-landscape-hi-dpi-i.jpg 1600w
@@ -130,7 +134,9 @@
 							class="feature-item__icon"
 							src="assets/images/icons/rain.svg"
 						/>
-						<h3 class="feature-item__title | fw-300">We&rsquo;ll Watch the Weather</h3>
+						<h3 class="feature-item__title | fw-300">
+							We&rsquo;ll Watch the Weather
+						</h3>
 						<p>
 							Download our app and we&rsquo;ll send you a notice if it&rsquo;s
 							about to rain in the next 20 minutes around your current location.

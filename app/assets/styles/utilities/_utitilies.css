@@ -66,8 +66,12 @@
     margin-right: $padding-50;
 }
 
-.mc {
+.mic {
     margin-inline: auto;
+}
+
+.mbc {
+    margin-block: auto;
 }
 
 /* Gap Utilities */

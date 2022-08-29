@@ -9,6 +9,10 @@
 
     p {
         margin-inline: auto;
-        max-width: 30rem;
+        max-width: 33rem;
+    }
+
+    .page-section {
+        margin-top: 75px;
     }
 }

@@ -28,6 +28,7 @@
     "cssnano": "^5.1.13",
     "i": "^0.3.7",
     "postcss": "^8.4.16",
+    "postcss-hexrgba": "^2.1.0",
     "postcss-import": "^14.1.0",
     "postcss-loader": "^7.0.1",
     "postcss-mixins": "^9.0.3",

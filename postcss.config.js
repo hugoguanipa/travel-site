@@ -8,6 +8,7 @@ module.exports = {
         'postcss-import',
         'cssnano',
         'postcss-mixins',
-        'postcss-calc'
+        'postcss-calc',
+        'postcss-hexrgba'
     ],
   };
