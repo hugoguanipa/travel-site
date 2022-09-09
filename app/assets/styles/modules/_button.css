@@ -13,4 +13,9 @@
         font-size: $fluid-font-link;
         padding: $padding-200 $padding-600;
     }
+
+    @mixin atSmall {
+        width: max-content;
+        margin-inline: auto;
+    }
 }

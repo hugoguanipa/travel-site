@@ -10,6 +10,10 @@
     }
 
     &__header {
-        grid-template-columns: auto max-content;
+        grid-template-columns: auto;
+
+        @mixin atSmall {
+            justify-items: center;
+        }
     }
 }

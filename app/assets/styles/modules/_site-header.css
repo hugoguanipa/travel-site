@@ -1,13 +1,71 @@
 .site-header {
-    position: absolute;
-    background-color: $colorBrand-50;
-    width: 100%;
-    padding: $padding-100;
+	position: absolute;
+	background-color: rgba($colorBrand, 0.3);
+	width: 100%;
+	padding: $padding-100;
+	transition: background-color 0.7s ease-out;
 
-    &__logo {
-        position: absolute;
-        top: 0;
-        background-color: $colorBrand;
-        padding: $padding-600;
-    }
+	&__expanded {
+		background-color: rgba($colorBrand, 0.7);
+	}
+
+	&__logo {
+		position: absolute;
+		top: 0;
+		background-color: $colorBrand;
+		padding: $fluid-padding-250;
+
+		@mixin atSmall {
+			left: 50%;
+			transform: translate(-50%);
+		}
+	}
+
+	&__nav-content {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: flex-start;
+		min-height: 48px;
+
+		@mixin atSmall {
+			padding-top: 120px;
+		}
+
+	}
+
+	&__mobile-menu {
+		width: 20px;
+		height: 20px;
+		position: absolute;
+		top: 20px;
+		right: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+
+        &__bar {
+            display: block;
+            width: 20px;
+            height: 3px;
+            background-color: #fff;
+            transition: all 0.4s ease-in-out;
+        }
+
+        &.active &__bar:nth-child(2) {
+            opacity: 0;
+            transform: scaleX(0);
+        }
+
+        &.active &__bar:nth-child(1) {
+            transform: translateY(7px) rotate(45deg);
+        }
+
+        &.active &__bar:nth-child(3) {
+            transform: translateY(-7px) rotate(-45deg);
+        }
+	}
+
+	@mixin atSmall {
+		padding: 0;
+	}
 }

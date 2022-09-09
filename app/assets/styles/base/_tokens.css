@@ -1,6 +1,5 @@
 /* Colors */
 $colorBrand: #2f5572;
-$colorBrand-50: rgba($colorBrand, 0.3);
 $colorBrand-200:  #e0e6ef;
 $colorOrange: #d59541;
 $colorWhite: #fff;
@@ -26,6 +25,7 @@ $padding-800: 4.5rem;
 $padding-850: 5.5rem;
 
 $fluid-padding-200: clamp($padding-200, $fluid-size-300 * 1.5vw,$padding-600);
+$fluid-padding-250: clamp($padding-400, $fluid-size-300 * 1.5vw,$padding-600);
 $fluid-padding-300: clamp($padding-100, $fluid-size-600 * 1.5vw,$padding-700);
 $fluid-padding-400: clamp($padding-300, $fluid-size-800 * 1.5vw,$padding-800);
 

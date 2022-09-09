@@ -1,10 +1,19 @@
 .primary-nav {
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
+	&-content {
+		display: flex;
+		justify-content: flex-end;
 
-    a {
-        color: $colorWhite;
-        text-decoration: none;
-    }
+		a {
+			color: $colorWhite;
+			text-decoration: none;
+
+            @mixin atSmall {
+                background-color: rgba($colorBrand, 0.5);
+                padding: 8px;
+            }
+		}
+	}
+	@mixin atSmall {
+		padding-block: 20px;
+	}
 }
