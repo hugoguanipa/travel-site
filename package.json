@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "gsap": "^3.11.1",
     "lodash": "^4.17.21",
     "postcss-calc": "^8.2.4"
   },
