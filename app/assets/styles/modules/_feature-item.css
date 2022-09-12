@@ -2,7 +2,6 @@
     position: relative;
 	padding-left: 94px;
 
-
     @mixin atMedium{
         padding-left: 0px;
     }

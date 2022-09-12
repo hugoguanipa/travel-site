@@ -3,40 +3,32 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const imgzoom1 = document.querySelectorAll(".feature-item");
 
-imgzoom1.forEach((element) => {
+class RevealOnScroll {
+    constructor(els) {
+        this.itemsToReveal = els
+        this.revealAll()
+    }
+    
+    revealAll() {
+        this.itemsToReveal.forEach((el) => {
 
-  	gsap.set(element, { scale:0 });
-  
-    gsap.to(element, {
-        duration: 2.3,
-        scale: 1,
-        ease: "power2.out",
-        scrollTrigger: {
-            trigger: element,
-            start: "top bottom-=100",
-            end: "bottom top+=100",
-            toggleActions: "play none pause none"
-        }
-    });
-})
+            gsap.set(el, { opacity:0, scale: 1.2 });
+        
+            gsap.to(el, {
+              duration: 2,
+              scale:1,
+              opacity: 1,
+              ease: "circ",
+              scrollTrigger: {
+                  trigger: el,
+                  start: "top bottom-=100",
+                  end: "bottom top+=100",
+                  toggleActions: "play none pause none"
+                }
+             });
+      })
+    }
+}
 
-const imgzoom = document.querySelectorAll(".testimonial");
-
-imgzoom.forEach((element) => {
-
-  	gsap.set(element, { scale:0 });
-  
-    gsap.to(element, {
-        duration: 2.3,
-        scale: 1,
-        ease: "power2.out",
-        scrollTrigger: {
-            trigger: element,
-            start: "top bottom-=100",
-            end: "bottom top+=100",
-            toggleActions: "play none pause none"
-        }
-    });
-})
+export default RevealOnScroll;
