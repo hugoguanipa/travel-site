@@ -3,7 +3,6 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-
 class StickyHeader {
     constructor() {
         this.siteHeader = document.querySelector(".site-header")
