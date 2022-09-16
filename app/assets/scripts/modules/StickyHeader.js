@@ -16,8 +16,6 @@ class StickyHeader {
             end: 99999,
             toggleClass: {className: 'site-header--scrolled', targets: '.site-header '}
           });
-
-        this.pageSections.forEach(el => this.calcSection(el))
     }
     
 }
