@@ -13,6 +13,12 @@
             }
 		}
 	}
+
+	nav a.active {
+		color: red;
+	  }
+
+
 	@mixin atSmall {
 		padding-block: 20px;
 	}

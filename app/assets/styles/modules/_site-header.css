@@ -4,9 +4,15 @@
 	width: 100%;
 	padding: $padding-100;
 	transition: background-color 0.7s ease-out;
+	position: fixed;
+	z-index: 2;
 
 	&__expanded {
 		background-color: rgba($colorBrand, 0.7);
+	}
+
+	&--scrolled {
+		background-color: rgba(23, 51, 72, 0.85);
 	}
 
 	&__logo {
@@ -14,10 +20,16 @@
 		top: 0;
 		background-color: $colorBrand;
 		padding: $fluid-padding-250;
+		transition: transform 0.3s ease-out;
 
-		@mixin atSmall {
-			left: 50%;
-			transform: translate(-50%);
+		.site-header--scrolled & {
+			transform: scale(.62);
+			top: -25px;
+
+			@mixin atSmall {
+				transform: scale(0.8);
+				top: -10px;
+			}
 		}
 	}
 

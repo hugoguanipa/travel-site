@@ -13,10 +13,10 @@ class RevealOnScroll {
     revealAll() {
         this.itemsToReveal.forEach((el) => {
 
-            gsap.set(el, { opacity:0, scale: 1.2 });
+            gsap.set(el, { opacity:0, scale: 1.1 });
         
             gsap.to(el, {
-              duration: 2,
+              duration: 1.8,
               scale:1,
               opacity: 1,
               ease: "circ",
