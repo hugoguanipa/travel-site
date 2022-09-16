@@ -14,8 +14,8 @@
 		}
 	}
 
-	nav a.active {
-		color: red;
+	& a.active {
+		color: $colorOrange;
 	  }
 
 
