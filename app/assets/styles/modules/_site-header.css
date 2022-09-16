@@ -25,7 +25,7 @@
 
 		.site-header--scrolled & {
 			transform: scale(.7);
-			top: -14px;
+			top: -19px;
 
 			@mixin atMedium {
 				transform: scale(0.8);
