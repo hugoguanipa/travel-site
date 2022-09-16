@@ -18,17 +18,18 @@
 	&__logo {
 		position: absolute;
 		top: 0;
+		aspect-ratio: 103/ 61;
 		background-color: $colorBrand;
 		padding: $fluid-padding-250;
 		transition: transform 0.3s ease-out;
 
 		.site-header--scrolled & {
-			transform: scale(.62);
-			top: -25px;
+			transform: scale(.7);
+			top: -14px;
 
-			@mixin atSmall {
+			@mixin atMedium {
 				transform: scale(0.8);
-				top: -10px;
+				top: -11px;
 			}
 		}
 	}
