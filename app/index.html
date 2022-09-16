@@ -7,6 +7,11 @@
 			rel="stylesheet"
 			type="text/css"
 		/>
+		<link
+			rel="icon"
+			type="image/x-icon"
+			href="app/assets/images/icons/icon.ico"
+		/>
 		<title>Clear View Escapes</title>
 		<meta
 			name="keywords"
@@ -21,7 +26,7 @@
 		<header class="site-header">
 			<div class="wrapper grid grid__header gap-600">
 				<div class="site-header__logo">
-					<img src="assets/images/icons/clear-view-escapes.svg" />
+					<img width="142" height="59" src="assets/images/icons/clear-view-escapes.svg" />
 				</div>
 				<div class="site-header__mobile-menu lg-none">
 					<span class="site-header__mobile-menu__bar"></span>
@@ -48,7 +53,9 @@
 				<p class="p-large text-color-white fw-100 ts-200">
 					We create soul restoring journeys that inspire you to be you.
 				</p>
-				<a class="btn btn--orange btn--large open-modal" href="#">Get Started Today</a>
+				<a class="btn btn--orange btn--large open-modal" href="#"
+					>Get Started Today</a
+				>
 			</div>
 		</section>
 
@@ -65,6 +72,9 @@
 				</h3>
 				<img
 					class="mic mb-700"
+					loading="lazy"
+					width="970"
+					height="418"
 					sizes="970px, 100vw"
 					srcset="
 						assets/images/first-trip-low-res.jpg  565w,
@@ -86,6 +96,9 @@
 							/>
 							<img
 								class="mic"
+								loading="lazy"
+								width="404"
+								height="531"
 								srcset="
 									assets/images/our-start-landscape-i.jpg         800w,
 									assets/images/our-start-landscape-hi-dpi-i.jpg 1600w
@@ -132,14 +145,14 @@
 		<section id="features" class="page-section page-section--blue">
 			<div class="wrapper">
 				<h2 class="section-title | text-center mb-300">
-					<img class="mr-100" src="assets/images/icons/star.svg" />Our
+					<img class="mr-100 lazy" width="64" height="86" data-src="assets/images/icons/star.svg" />Our
 					<strong>Features</strong>
 				</h2>
 				<div class="grid special-content">
 					<div class="feature-item">
 						<img
-							class="feature-item__icon"
-							src="assets/images/icons/rain.svg"
+							class="feature-item__icon lazy"
+							data-src="assets/images/icons/rain.svg"
 						/>
 						<h3 class="feature-item__title | fw-300">
 							We&rsquo;ll Watch the Weather
@@ -153,8 +166,8 @@
 					</div>
 					<div class="feature-item">
 						<img
-							class="feature-item__icon"
-							src="assets/images/icons/globe.svg"
+							class="feature-item__icon lazy"
+							data-src="assets/images/icons/globe.svg"
 						/>
 						<h3 class="feature-item__title">Global Guides</h3>
 						<p>
@@ -165,8 +178,8 @@
 					</div>
 					<div class="feature-item">
 						<img
-							class="feature-item__icon"
-							src="assets/images/icons/wifi.svg"
+							class="feature-item__icon lazy"
+							data-src="assets/images/icons/wifi.svg"
 						/>
 						<h3 class="feature-item__title">Wi-Fi Waypoints</h3>
 						<p>
@@ -177,8 +190,8 @@
 					</div>
 					<div class="feature-item">
 						<img
-							class="feature-item__icon"
-							src="assets/images/icons/fire.svg"
+							class="feature-item__icon lazy"
+							data-src="assets/images/icons/fire.svg"
 						/>
 						<h3 class="feature-item__title">Survival Kit</h3>
 						<p>
@@ -194,13 +207,14 @@
 		<section id="testimonials" class="page-section page-section--testimonials">
 			<div class="wrapper">
 				<h2 class="section-title | text-color-brand mb-400">
-					<img class="mr-100" src="assets/images/icons/comment.svg" /> Real
+					<img width="64" height="86" class="mr-100 lazy" data-src="assets/images/icons/comment.svg" />
+					Real
 					<strong>Testimonials</strong>
 				</h2>
 				<div class="row special-content | cgap-300 rgap-300">
 					<div class="row__three testimonial">
 						<div class="testimonial__photo">
-							<img src="assets/images/testimonial-jane.jpg" />
+							<img class="lazy" data-src="assets/images/testimonial-jane.jpg" />
 						</div>
 						<h3 class="testimonial__title | text-center text-color-brand">
 							Jane Doe
@@ -221,7 +235,7 @@
 					</div>
 					<div class="row__three testimonial">
 						<div class="testimonial__photo">
-							<img src="assets/images/testimonial-john.jpg" />
+							<img class="lazy" data-src="assets/images/testimonial-john.jpg" />
 						</div>
 						<h3 class="testimonial__title | text-center text-color-brand">
 							John Smith
@@ -241,7 +255,7 @@
 					</div>
 					<div class="row__three testimonial">
 						<div class="testimonial__photo">
-							<img src="assets/images/testimonial-cat.jpg" />
+							<img class="lazy" data-src="assets/images/testimonial-cat.jpg" />
 						</div>
 						<h3 class="testimonial__title | text-center text-color-brand">
 							Cat McKitty
@@ -272,7 +286,6 @@
 				<a class="btn btn--orange open-modal" href="#">Get in Touch</a>
 			</div>
 		</footer>
-
-		<script src="bundle.js"></script>
+		
 	</body>
 </html>
