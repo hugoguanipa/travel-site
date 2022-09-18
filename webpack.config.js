@@ -13,7 +13,7 @@ let cssConfig = {
 class RunAfterCompile {
     apply(compiler) {
         compiler.hooks.done.tap('Copy images', function(){
-            fse.copySync('./app/assets/images', './dist/assets/images')
+            fse.copySync('./app/assets/images', './docs/assets/images')
         })
     }
 }
@@ -61,7 +61,7 @@ if(currentTask == 'build') {
     cssConfig.use.unshift(MiniCssExtractPlugin.loader)
     config.output = {
         filename: 'bundle/[name].js',
-        path: path.resolve(__dirname, 'dist')
+        path: path.resolve(__dirname, 'docs')
     }
     config.mode = 'production'
     config.optimization = {
